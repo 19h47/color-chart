@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+</head>
+<body>
+	<script src="main.js"></script>
+
+	<script>
+
+        // Shade
+		const shade = new ColorChart.Shade('#1a26ff');
+
+        shade.generates(50).render();
+        shade.generates(70).render();
+        shade.reset().generate(50).render();
+        shade.reset().generate(30).render();
+        shade.reset().generate(90).render();
+
+        // Tint
+		const tint = new ColorChart.Tint('#e91e63');
+        //
+		tint.generates(100).render();
+		tint.reset().generate().render();
+        tint.reset().generate(80).render();
+	</script>
+</body>
+</html>

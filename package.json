@@ -1,0 +1,50 @@
+{
+  "name": "color-chart",
+  "version": "1.0.0",
+  "description": "Tint and shade colors",
+  "main": "dist/main.js",
+  "scripts": {
+    "prod": "./bin/production",
+    "dev": "./bin/development",
+    "deploy": "./bin/deploy",
+    "start": "./bin/start"
+  },
+  "author": "Jérémy Levron <jeremylevron@19h47.fr> (http://19h47.fr)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/19h47/color-chart.git"
+  },
+  "keywords": [
+    "ES6",
+    "JavaScript"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.3.1",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^1.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-import-resolver-webpack": "^0.11.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-merge": "^4.2.1",
+    "webpack-notifier": "^1.7.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "terser": "^3.14.1"
+  }
+}
